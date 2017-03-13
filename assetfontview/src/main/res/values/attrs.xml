@@ -25,4 +25,8 @@
         <attr name="fontAssetName" />
     </declare-styleable>
 
+    <declare-styleable name="AssetFontAlertDialogBuilder">
+        <attr name="fontAssetName" />
+    </declare-styleable>
+
 </resources>

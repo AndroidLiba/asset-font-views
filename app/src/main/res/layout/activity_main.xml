@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <ru.jahom.assetfont.views.AssetFontToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:fontAssetName="GreatVibes-Regular.otf"
+    />
 
     <ru.jahom.assetfont.views.AssetFontTextView
         android:layout_width="wrap_content"
@@ -16,4 +26,24 @@
         app:fontAssetName="GreatVibes-Regular.otf"
     />
 
-</FrameLayout>
+    <ru.jahom.assetfont.views.AssetFontEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit text"
+        app:fontAssetName="GreatVibes-Regular.otf"
+    />
+
+    <ru.jahom.assetfont.views.AssetFontButton
+        android:id="@+id/button_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Alert Dialog"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        app:fontAssetName="GreatVibes-Regular.otf"
+    />
+
+
+
+</LinearLayout>
