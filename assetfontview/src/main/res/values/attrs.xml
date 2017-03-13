@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fontAssetName" format="string"/>
+    <declare-styleable name="AssetFontHelper">
+        <attr name="fontAssetName" />
+    </declare-styleable>
+
+    <declare-styleable name="AssetFontTextView">
+        <attr name="fontAssetName" />
+    </declare-styleable>
+
+    <declare-styleable name="AssetFontButton">
+        <attr name="fontAssetName" />
+    </declare-styleable>
+
+    <declare-styleable name="AssetFontCheckedTextView">
+        <attr name="fontAssetName" />
+    </declare-styleable>
+
+    <declare-styleable name="AssetFontEditText">
+        <attr name="fontAssetName" />
+    </declare-styleable>
+
+    <declare-styleable name="AssetFontChronometer">
+        <attr name="fontAssetName" />
+    </declare-styleable>
+
+</resources>
